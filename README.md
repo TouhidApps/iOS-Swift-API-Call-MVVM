@@ -1,5 +1,8 @@
 # iOS-Task
 This is a repository which has api call and image load without any 3rd party library
+##### Build With:
+Swift 5
+Xcode 12.3
 
 ## Screenshots are below
 ### Friends List:
