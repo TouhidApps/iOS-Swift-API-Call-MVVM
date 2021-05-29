@@ -11,7 +11,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (self.myCV.frame.size.width) / 5
+        let width = (self.myCV.frame.size.width) / 2
         let height = width // * 1.05 //ratio
         return CGSize(width: width-10, height: height)
     }

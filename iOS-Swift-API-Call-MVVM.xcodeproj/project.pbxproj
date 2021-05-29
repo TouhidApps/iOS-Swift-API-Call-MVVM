@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		870833AA2656E0D10051010B /* iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		870833AA2656E0D10051010B /* iOS-Swift-API-Call-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Swift-API-Call-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		870833AD2656E0D10051010B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		870833AF2656E0D10051010B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		870833B12656E0D10051010B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		870833A12656E0D10051010B = {
 			isa = PBXGroup;
 			children = (
-				870833AC2656E0D10051010B /* iOS Task */,
+				870833AC2656E0D10051010B /* iOS-Swift-API-Call-MVVM */,
 				870833AB2656E0D10051010B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		870833AB2656E0D10051010B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				870833AA2656E0D10051010B /* iOS Task.app */,
+				870833AA2656E0D10051010B /* iOS-Swift-API-Call-MVVM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		870833AC2656E0D10051010B /* iOS Task */ = {
+		870833AC2656E0D10051010B /* iOS-Swift-API-Call-MVVM */ = {
 			isa = PBXGroup;
 			children = (
 				870833AD2656E0D10051010B /* AppDelegate.swift */,
@@ -90,7 +90,7 @@
 				870833B82656E0D40051010B /* LaunchScreen.storyboard */,
 				870833BB2656E0D40051010B /* Info.plist */,
 			);
-			path = "iOS Task";
+			path = "iOS-Swift-API-Call-MVVM";
 			sourceTree = "<group>";
 		};
 		870833CC2656F0FD0051010B /* images */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		870833A92656E0D10051010B /* iOS Task */ = {
+		870833A92656E0D10051010B /* iOS-Swift-API-Call-MVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 870833BE2656E0D40051010B /* Build configuration list for PBXNativeTarget "iOS Task" */;
+			buildConfigurationList = 870833BE2656E0D40051010B /* Build configuration list for PBXNativeTarget "iOS-Swift-API-Call-MVVM" */;
 			buildPhases = (
 				870833A62656E0D10051010B /* Sources */,
 				870833A72656E0D10051010B /* Frameworks */,
@@ -176,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS Task";
+			name = "iOS-Swift-API-Call-MVVM";
 			productName = "iOS Task";
-			productReference = 870833AA2656E0D10051010B /* iOS Task.app */;
+			productReference = 870833AA2656E0D10051010B /* iOS-Swift-API-Call-MVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 870833A52656E0D10051010B /* Build configuration list for PBXProject "iOS Task" */;
+			buildConfigurationList = 870833A52656E0D10051010B /* Build configuration list for PBXProject "iOS-Swift-API-Call-MVVM" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,7 +208,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				870833A92656E0D10051010B /* iOS Task */,
+				870833A92656E0D10051010B /* iOS-Swift-API-Call-MVVM */,
 			);
 		};
 /* End PBXProject section */
@@ -391,16 +391,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "iOS Task/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "iOS-Swift-API-Call-MVVM/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.touhidapps.iOS-Task";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touhidapps.iOS-Swift-API-Call-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -410,23 +412,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "iOS Task/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "iOS-Swift-API-Call-MVVM/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.touhidapps.iOS-Task";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.touhidapps.iOS-Swift-API-Call-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		870833A52656E0D10051010B /* Build configuration list for PBXProject "iOS Task" */ = {
+		870833A52656E0D10051010B /* Build configuration list for PBXProject "iOS-Swift-API-Call-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				870833BC2656E0D40051010B /* Debug */,
@@ -435,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		870833BE2656E0D40051010B /* Build configuration list for PBXNativeTarget "iOS Task" */ = {
+		870833BE2656E0D40051010B /* Build configuration list for PBXNativeTarget "iOS-Swift-API-Call-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				870833BF2656E0D40051010B /* Debug */,
