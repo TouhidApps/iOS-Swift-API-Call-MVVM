@@ -1,6 +1,6 @@
 # iOS Swift API Call with MVVM Design Pattern
 
-API call and image load without any 3rd party library with MVVM design pattern
+API call and image loading without any 3rd party library with MVVM design pattern
 
 ##### Build With:
 Swift 5
