@@ -7,7 +7,7 @@ Swift 5
 
 Xcode 12.3
 
-## Screenshots are below
+## Screenshots are below (From iPad)
 ### Friends List:
 ![system schema](https://raw.githubusercontent.com/TouhidApps/iOS-Task/main/sample/home_page.png)
 ### Friends Detail:
