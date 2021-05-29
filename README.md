@@ -7,8 +7,7 @@ Swift 5
 
 Xcode 12.3
 
-## Screenshots are below (From iPad)
-### Friends List:
-![system schema](https://raw.githubusercontent.com/TouhidApps/iOS-Task/main/sample/home_page.png)
-### Friends Detail:
-![system schema](https://raw.githubusercontent.com/TouhidApps/iOS-Task/main/sample/detail_page.png)
+### GIF Preview is below for friends list & friends detail:
+
+![system schema](https://raw.githubusercontent.com/TouhidApps/iOS-Task/main/sample/demo.gif)
+
